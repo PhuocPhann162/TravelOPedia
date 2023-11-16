@@ -34,7 +34,7 @@ export const destinationAPI = createApi({
       invalidatesTags: ["Destinations"],
     }),
     deleteDestination: builder.mutation({
-      query: ({ id }) => ({
+      query: (id) => ({
         url: `destination/${id}`,
         method: "DELETE",
         body: id,
