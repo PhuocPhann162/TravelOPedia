@@ -11,6 +11,24 @@
       "city": "Chicago",
       "country": "USA",
       "daysNeeded": 5
+    },
+    {
+      "id": 95.06405971974775,
+      "city": "Ha Noi",
+      "country": "Viet Nam",
+      "daysNeeded": 8
+    },
+    {
+      "id": 51.658214624107956,
+      "city": "Ha Noi ",
+      "country": "Viet Nam",
+      "daysNeeded": 1
+    },
+    {
+      "id": 44.526090935136665,
+      "city": "Phuoc ",
+      "country": "Phan ",
+      "daysNeeded": 1
     }
   ]
 }
