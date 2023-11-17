@@ -27,6 +27,8 @@ function Destination({ destination }) {
       country: inputCountry,
       daysNeeded: destination.daysNeeded,
     });
+    setInputCity("");
+    setInputCountry("");
     setIsUpdate(false);
   };
 
