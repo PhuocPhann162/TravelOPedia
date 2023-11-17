@@ -10,9 +10,7 @@ function DestinationList() {
     content = <p>Loading...</p>;
   } else if (isSuccess) {
     content = data.map((destination) => {
-      return (
-        <Destination destination={destination}/>
-      );
+      return <Destination destination={destination} key={destination.id} />;
     });
   } else if (isError) {
     content = <p>{error}</p>;
